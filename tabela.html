@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="javascript" src="javaScript.js"></script>
+	<link rel="stylesheet" href="estilo.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<ul class="nav nav-tabs">
+  <li role="presentation"><a href="index.html">Mercado de TI</a></li>
+  <li role="presentation" class="active"><a href="tabela.html">Tabela de valores</a></li>
+  <li role="presentation"><a href="vagas.html">Vagas</a></li>
+</ul>
+<section class="container">
+
+	<table class="table table-striped" class="container">
+    <tr class="success">
+      <td>Cargo</td>
+      <td>Valor de Salario Estagio</td>
+      <td>Valor de Salario Junior</td>
+      <td>Valor de Salario Pleno</td>
+      <td>Valor de Salario Senior</td>
+    </tr>
+    <tr>
+      <td>Suporte</td>
+      <td>R$ 1000,00</td>
+      <td>R$ 1500,00</td>
+      <td>R$ 2000,00</td>
+      <td>R$ 3500,00</td>
+    </tr>
+  <tr>
+      <td>Desenvolvimento</td>
+      <td>R$ 2000,00</td>
+      <td>R$ 3500,00</td>
+      <td>R$ 5000,00</td>
+      <td>R$ 8500,00</td>
+    </tr>
+  
+  </table>
+</section>
+<section class="container">
+        <fieldset>
+            <legend>Enviar Comentários:</legend>
+
+            <form>
+
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autofocus="autofocus"
+                           placeholder="Informe o nome" required="required"
+                           class="form-control" />
+                </div>
+
+                <div>
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email"
+                           placeholder="Informe o e-mail pessoal"
+                           required="required" class="form-control" />
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" id="telefone"
+                    placeholder="Informe o seu telefone"
+                           required="required" class="form-control" />
+                </div>
+                <div>
+                    <label for="nome">Comentário</label>
+                    <input type="text" name="comentario" id="comentario"
+                           placeholder="Comentário" required="required"
+                           class="form-control" />
+                </div>
+                <div>
+                    <input type="submit" name="enviar" id="enviar" value="Enviar" class="btn btn-success" />
+                    <input type="reset" name="limpar" id="limpar" value="Limpar" class="btn btn-primary" />
+                </div>
+            </form>
+
+        </fieldset>
+    </section>
+	
+</body>
+<footer>
+<section class="container">
+	<div>
+  <p>Posted by: Rodrigo Furlaneti</p>
+  <p>Contact information: <a href="mailto:rodrigofurlaneti31@hotmail.com">
+  rodrigofurlaneti31@hotmail.com</a>.</p>
+  </div>
+</section>
+</footer>
+</html>
