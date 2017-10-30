@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8"/>
+<title>Registre-se</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<header>
+	<div class="menu-container">
+			<ul class="menu">
+			 
+				<div class="logotop">
+					<li><a href="index.html"><img src="Logo.png" alt="Logo" width="110"></a></li>
+				</div>
+					
+					<div class="alinhar">
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="produtos.html">Lista de Produtos</a></li>
+							<li><a href="cadastro.html">Registre-se</a></li>
+							<li><a href="carrinho.html">Carrinho de Compras</a></li>
+							<li><a href="noticias.html">Notícias</a></li>
+					</div>
+			</ul>
+	</div> 	
+</header>
+<body>
+	<h1>Registre-se</h1>
+	<form action="Primeiro Nome">
+		<label for=PrimeiroNome>Primeiro Nome</label>:<br>
+		<input type="text" name="PrimeiroNome"id="PrimeiroNome"><br>
+		
+		<label for=UltimoNome>Ultimo Nome</label>:<br>
+		<input type="text" name="UltimoNome"id="UltimoNome"><br>
+		
+		<label for=datanascimento>Data de Nascimento</label>:<br>
+		<input type="text" name="datanascimento"id="datanascimento"><br>		
+		
+		Sexo:<br/>
+		<select name="sexo">
+		<option value='Masculino'>Masculino</option>
+		<option value='Feminino'>Feminino</option>
+		</select>
+		
+		<label for=rg>RG:</label>:<br>
+		<input type="text" name="RG"id="RG"><br>		
+		
+		<label for=email>Email de Contato</label>:<br>
+		<input type="text" name="email"id="email"><br>
+
+		<label for=idade>Idade</label>:<br>
+		<input type="number" name="idade"id="idade"><br>				
+		
+
+	<h1>Endereço</h1>
+	<label for=cep>Cep:</label>:<br>
+	<input type="text" name="cep"id="cep"><br>		
+	
+	<label for=rua>Rua:</label>:<br>
+	<input type="text" name="rua"id="rua"><br>	
+	
+	<label for=numero>Número:</label>:<br>
+	<input type="number" name="numero"id="numero" required><br>	
+	
+	<label for=complemento>Complemento:</label>:<br>
+	<input type="text" name="complemento"id="complemento"><br>	
+	
+	<label for=cidade>Cidade:</label>:<br>
+	<input type="text" name="cidade"id="cidade" required><br>
+	
+	<h1>Acesso</h1>
+	<label for=usuario>Usuário</label>:<br>
+	<input type="text" name="usuario"id="usuario"><br>		
+	
+	<label for=senha>Senha:</label>:<br>
+	<input type="text" name="senha"id="senha"><br>	
+	
+	
+	<label for=confsenha>Confirmação de Senha:</label>:<br>
+	<input type="text" name="confsenha"id="confsenha"><br>	
+	
+	</form>
+	
+	<input type="button" name="enviar"id="enviar" value="Enviar"><br>	
+	
+</body>
+<footer>
+<p>Rodrigo Luiz Madeira Furlaneti - RA 1700747</p>
+<p>Rafael Yuji Takara - RA 1700166</p>
+<p>Luciano Carlos dos Anjos Santos - RA 1700133</p>	
+</footer>
+<script src="scripts.js"></script>
+</html>
